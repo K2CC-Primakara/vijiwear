@@ -161,7 +161,6 @@ header{
     color:#ed7536;
     text-decoration: none;
     font-family: 'League Spartan', sans-serif;
-    font-size: 24px;
     font-weight: bolder;
     position: relative;
     left: 285px;
@@ -406,7 +405,7 @@ footer{
     justify-content: space-between;
     align-items: center;
     margin-top: 100px;
-    background-color: #ed7536;
+    background-color: #669865;
 }
 
 footer img{
