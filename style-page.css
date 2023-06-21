@@ -155,9 +155,10 @@ header{
     align-items: center;
     justify-content: center;
     width: 300px;
-    height: 60px;
+    height: 70px;
+    font-size: 30px;
     background:#ffe43d;
-    border-radius: 20px;
+    border-radius: 15px;
     color:#ed7536;
     text-decoration: none;
     font-family: 'League Spartan', sans-serif;

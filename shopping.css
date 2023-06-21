@@ -139,7 +139,7 @@ header{
     transition: 0.5s;
 }
 
-.bg h3{
+.btn-click-more-shop a{
     font-family: 'League Spartan', sans-serif;
     margin-top: 50px;
     color: #FFE43D;
@@ -151,10 +151,13 @@ header{
     height: 70px;
     font-size: 30px;
     margin-left: 140px;
+    font-weight: bolder;
     border-radius: 15px;
+    text-decoration: none;
+    
 }
 
-.bg h3:hover{
+.btn-click-more-shop a:hover{
     background-color: #ED7536;
     color: white;
     cursor: pointer;
@@ -245,7 +248,7 @@ header{
 .card1 h3, .card2 h3, .card3 h3, .card4 h3, .card5 h3, .card6 h3, .card7 h3, .card8 h3, .card9 h3{
     background-color: #669865;
     transform: translateY(-50%);
-    padding: 10px 15px;
+    padding: 5px 15px;
     border-radius: 25px;
     color: #FFE43D;
     font-size: 24px;
@@ -254,6 +257,8 @@ header{
 .cardicon{
     display: flex;
     flex-direction: row;
+    justify-content:center;
+    align-items:center;
     padding-top: 10px;
     column-gap: 20px;
 }
@@ -262,7 +267,7 @@ header{
     color: #FFE43D;
     background-color: #669865;
     border-radius: 25px;
-    padding: 5px 10px;
+    padding: 10px 10px;
     font-size: 20px;
 }
 
@@ -276,9 +281,11 @@ header{
 .cardicon p{
     background-color: #FFE43D;
     border-radius: 25px;
-    padding: 5px 25px;
-    font-size: 20px;
+    padding: 10px 25px;
+    font-size: 18px;
 }
+
+
 
 footer{
     display: flex;
